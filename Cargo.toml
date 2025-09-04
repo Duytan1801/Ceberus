@@ -1,0 +1,12 @@
+[package]
+name = "testgame"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+
+[dependencies]
+pcap = "2.3.0"
+etherparse = "0.19"
+clap = { version = "4.0", features = ["derive"] }
+winapi = { version = "0.3", features = ["wincon", "winbase", "processenv"] }
